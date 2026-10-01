@@ -22,8 +22,11 @@ h1, h2, h3, p {
 }
 
 nav {
+    float: right;
+    width: 60%;
+    margin-right: 20%;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
