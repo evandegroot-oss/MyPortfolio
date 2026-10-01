@@ -19,6 +19,7 @@ header, footer {
 
 h1, h2, h3, p {
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 nav {
