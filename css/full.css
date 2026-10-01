@@ -11,7 +11,7 @@ body{
 }
 
 header, footer {
-    background-color: #012840;
+    background: linear-gradient(#012840, #11468C);
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -41,6 +41,15 @@ nav {
 }
 
 .button:hover {
-    background-color: #F2522E;
+    background: linear-gradient(45deg, #F2522E, #F29580);
     color: white;
 }
+
+#profile-photo {
+    width: 360px;
+}
+
+footer a {
+    color: #F29580;
+}
+
