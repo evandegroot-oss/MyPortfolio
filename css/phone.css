@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Sets the character encoding, UTF-8 is a universal character encoding that supports almost every language, symbol and emoji */
+
 /* Color scheme hexadecimal values: 11468C 012840 F2522E F29580 F2F2F2 */
 /* PHONE CSS */
 
@@ -7,7 +9,11 @@ body{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
+    /* Padding = space inside an element. */
+
     margin: 0px;
+     /* Margin = space outside an element. */
+
 }
 
 header, footer {
@@ -24,8 +30,14 @@ h1, h2, h3, p {
 
 nav {
     float: none;
+    /* Turns off the float for the navigation. */
+
     width: 100%;
+    /* Sets the navigation width to 100% of the page. */
+
     margin-right: 0%;
+    /* Margin creates space outside the navigation. */
+
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -33,24 +45,42 @@ nav {
 
 .button{
     text-decoration: none;
+    /* Removes the default underline from the navigation links. */
+
     background-color: #11468C;
     color: white;
     padding: 8px;
+    /* Adds space inside the buttons. */
+
     margin: 3px;
+    /* Adds space outside the buttons, separating them from each other. */
+
     border-radius: 5px;
+    /* Rounds the corners of the buttons. */
+
     box-shadow: 2px 2px 2px #F29580;
+    /* Adds a shadow around the buttons. */
+
 }
 
 .button:hover {
+    /* :hover applies these styles when the mouse is over the button. */
+
     background: linear-gradient(45deg, #F2522E, #F29580);
+    /* 45deg makes the gradient angled at 45 degrees. */
+
     color: white;
 }
 
 #profile-photo {
+    /* # means this is an ID selector. */
+
     width: 40%;
 }
 
 footer a {
+    /* Selects links that are inside the footer. */
+    
     color: #F29580;
 }
 
